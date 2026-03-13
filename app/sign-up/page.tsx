@@ -1,9 +1,9 @@
-import { SignIn } from "@clerk/nextjs";
+import { SignUp } from "@clerk/nextjs";
 
 export default function Page() {
   return (
     <main className="flex items-center justify-center min-h-screen">
-      <SignIn fallbackRedirectUrl="/select-disability" />
+      <SignUp fallbackRedirectUrl="/select-disability" />
     </main>
   );
 }
